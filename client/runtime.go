@@ -34,10 +34,10 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/logger"
-	"github.com/go-openapi/runtime/middleware"
-	"github.com/go-openapi/runtime/yamlpc"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/logger"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/runtime/yamlpc"
 )
 
 // TLSClientOptions to configure client authentication with mutual TLS

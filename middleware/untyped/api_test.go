@@ -20,13 +20,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	swaggerspec "github.com/go-openapi/spec"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	swaggerspec "github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 func stubAutenticator() runtime.Authenticator {

@@ -9,7 +9,7 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 type tracingTransport struct {

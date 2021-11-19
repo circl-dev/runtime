@@ -17,7 +17,7 @@ package yamlpc
 import (
 	"io"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
 	"gopkg.in/yaml.v2"
 )

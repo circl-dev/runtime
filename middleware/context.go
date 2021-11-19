@@ -21,16 +21,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/logger"
-	"github.com/go-openapi/runtime/middleware/untyped"
-	"github.com/go-openapi/runtime/security"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/logger"
+	"github.com/protodev-site/runtime/middleware/untyped"
+	"github.com/protodev-site/runtime/security"
 )
 
 // Debug when true turns on verbose logging

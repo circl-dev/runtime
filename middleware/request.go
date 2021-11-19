@@ -19,10 +19,10 @@ import (
 	"reflect"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/spec"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // UntypedRequestBinder binds and validates the data from a http request

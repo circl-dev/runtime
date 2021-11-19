@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-openapi/runtime/internal/testing/petstore"
-	"github.com/go-openapi/runtime/middleware/untyped"
+	"github.com/protodev-site/runtime/internal/testing/petstore"
+	"github.com/protodev-site/runtime/middleware/untyped"
 )
 
 func terminator(rw http.ResponseWriter, r *http.Request) {

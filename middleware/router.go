@@ -21,17 +21,17 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-openapi/runtime/security"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime/security"
 
-	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware/denco"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware/denco"
 )
 
 // RouteParam is a object to capture route params in a framework agnostic way.

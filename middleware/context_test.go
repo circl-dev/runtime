@@ -22,13 +22,13 @@ import (
 	"testing"
 
 	apierrors "github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/loads/fmts"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/loads/fmts"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/internal/testing/petstore"
-	"github.com/go-openapi/runtime/middleware/untyped"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/internal/testing/petstore"
+	"github.com/protodev-site/runtime/middleware/untyped"
 )
 
 type stubBindRequester struct {

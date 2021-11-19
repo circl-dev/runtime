@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 type stubConsumer struct {

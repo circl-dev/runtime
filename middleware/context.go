@@ -21,16 +21,16 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/spec"
 
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/logger"
-	"github.com/protodev-site/runtime/middleware/untyped"
-	"github.com/protodev-site/runtime/security"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/logger"
+	"github.com/circl-dev/runtime/middleware/untyped"
+	"github.com/circl-dev/runtime/security"
 )
 
 // Debug when true turns on verbose logging

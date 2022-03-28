@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 func routes() []denco.Record {

@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/internal/testing/petstore"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/internal/testing/petstore"
 )
 
 func TestServeSpecMiddleware(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 	"github.com/stretchr/testify/require"
 )
 

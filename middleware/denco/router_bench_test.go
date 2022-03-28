@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 func BenchmarkRouterLookupStatic100(b *testing.B) {

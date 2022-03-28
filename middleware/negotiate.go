@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/protodev-site/runtime/middleware/header"
+	"github.com/circl-dev/runtime/middleware/header"
 )
 
 // NegotiateContentEncoding returns the best offered content encoding for the

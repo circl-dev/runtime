@@ -21,7 +21,7 @@ import (
 
 	"github.com/go-openapi/errors"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 const (

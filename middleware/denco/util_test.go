@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 func TestNextSeparator(t *testing.T) {

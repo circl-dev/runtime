@@ -17,7 +17,7 @@ package security
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // Authorized provides a default implementation of the Authorizer interface where all

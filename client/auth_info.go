@@ -19,7 +19,7 @@ import (
 
 	"github.com/go-openapi/strfmt"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // PassThroughAuth never manipulates the request

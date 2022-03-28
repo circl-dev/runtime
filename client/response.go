@@ -18,7 +18,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 var _ runtime.ClientResponse = response{}

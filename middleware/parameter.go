@@ -23,13 +23,13 @@ import (
 	"reflect"
 	"strconv"
 
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/validate"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/validate"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 const defaultMaxMemory = 32 << 20

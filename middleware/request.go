@@ -18,11 +18,11 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/spec"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // UntypedRequestBinder binds and validates the data from a http request

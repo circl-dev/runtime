@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/protodev-site/runtime/internal/testing/petstore"
-	"github.com/protodev-site/runtime/middleware/untyped"
+	"github.com/circl-dev/runtime/internal/testing/petstore"
+	"github.com/circl-dev/runtime/middleware/untyped"
 )
 
 func terminator(rw http.ResponseWriter, r *http.Request) {

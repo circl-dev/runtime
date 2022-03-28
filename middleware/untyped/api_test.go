@@ -20,13 +20,13 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	swaggerspec "github.com/circl-dev/spec"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	swaggerspec "github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 func stubAutenticator() runtime.Authenticator {

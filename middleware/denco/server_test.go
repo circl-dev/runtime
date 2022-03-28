@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 func testHandlerFunc(w http.ResponseWriter, r *http.Request, params denco.Params) {

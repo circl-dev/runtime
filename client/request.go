@@ -31,7 +31,7 @@ import (
 
 	"github.com/go-openapi/strfmt"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // NewRequest creates a new swagger http client request

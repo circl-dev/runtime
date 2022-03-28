@@ -17,7 +17,7 @@ package yamlpc
 import (
 	"io"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
 	"gopkg.in/yaml.v2"
 )
